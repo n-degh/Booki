@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Montserrat:wght@100&family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Raleway", "sans serif";
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+nav {
+  border: solid red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+#logo {
+  margin-right: auto;
+  padding: 0 2rem;
+}
+nav a {
+  padding: 2rem;
+}
+
+.hebergement:hover {
+  border-top: 3px solid blue;
+}
+
+.activités:hover {
+  border-top: 3px solid blue;
+}
+
+.element1 {
+  border: 1px solid blue;
+}
